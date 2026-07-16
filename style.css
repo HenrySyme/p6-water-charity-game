@@ -7,3 +7,41 @@ body{
 .canvas-art{
     display: none;
 }
+
+#button-container{
+    position: absolute;
+    display: none;
+    top: 55vh; 
+    left: calc(50% - 90px); 
+    z-index: 10; 
+    padding: 10px 20px;
+    background-color: none;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+#bottum-left{
+    background-color: white;
+    margin-right: 50vw;
+    border-radius: 6px;
+    font-size: 200%;
+}
+
+#bottum-right{
+    background-color: white;
+    border-radius: 6px;
+    font-size: 200%;
+}
+
+.div-centerer{
+    position:absolute;
+    top:85vh;
+    left:15vw;
+    display: flex;
+    z-index: 10;
+    background-color: none;
+}
+
